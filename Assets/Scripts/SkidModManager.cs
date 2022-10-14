@@ -16,10 +16,18 @@ namespace Skid.Mods
     {
         #region Variables
         public static SkidModManager Instance = null;
+        [Header("Variables for Initialize player and gameplay properties")]
+        public InitVariables initVariables;
         [System.Serializable]
         public class InitVariables
         {
             public Transform playerSpawnPos;
+            public Transform enemySpawnPos1, enemySpawnPos2, enemySpawnPos3, enemySpawnPos4, enemySpawnPos5;
+            [Space]
+            [Header("Add check points on the road")]
+            public Transform checkPoint1Position;
+            public Transform checkPoint2Position;
+            public Transform checkPoint3Position;
         }
         #endregion
 
