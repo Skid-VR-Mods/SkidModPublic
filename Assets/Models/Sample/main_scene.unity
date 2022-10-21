@@ -3948,7 +3948,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2138055219001808830, guid: 7882f137a55202745ba898df416f7673, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2138055219001808830, guid: 7882f137a55202745ba898df416f7673, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4066,7 +4066,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2138055219001808830, guid: 7882f137a55202745ba898df416f7673, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2138055219001808830, guid: 7882f137a55202745ba898df416f7673, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4163,6 +4163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6027167f6908fa64a8fd7bc6032046de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameMode: 1
   initVariables:
     playerSpawnPos: {fileID: 1212267075}
     enemySpawnPos1: {fileID: 608556357}
@@ -4173,7 +4174,6 @@ MonoBehaviour:
     checkPoint1Position: {fileID: 510958760}
     checkPoint2Position: {fileID: 902103676}
     checkPoint3Position: {fileID: 615275053}
-  gameMode: 1
 --- !u!1 &1147746724
 GameObject:
   m_ObjectHideFlags: 0
