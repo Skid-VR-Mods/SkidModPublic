@@ -16,8 +16,10 @@ namespace Skid.Mods
     {
         #region Variables
         public static SkidModManager Instance = null;
+        public GameMode gameMode;
         [Header("Variables for Initialize player and gameplay properties")]
         public InitVariables initVariables;
+       
         [System.Serializable]
         public class InitVariables
         {
@@ -29,6 +31,7 @@ namespace Skid.Mods
             public Transform checkPoint2Position;
             public Transform checkPoint3Position;
         }
+        public enum GameMode { Open, ProOrRush }
         #endregion
 
         #region Functions
@@ -57,7 +60,10 @@ namespace Skid.Mods
         {
 
         }
+        public void DisableObjects()
+        {
 
+        }
         #endregion
 
         #region Main
